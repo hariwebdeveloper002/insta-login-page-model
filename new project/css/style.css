@@ -1,0 +1,130 @@
+body
+{
+    background-color:black;
+    height: 20px;
+}
+#header{
+    background-color:yellow;
+    height: 39px;
+    margin-top: -49.5px;
+    width: 37px;
+}
+
+#header:hover
+{
+    transition: all 1500ms ease-in-out;
+    border-radius: 30%;
+    background-color: blue;
+    image-rendering: pixelated;
+    cursor: pointer;
+}
+#header h5{
+    color: blue;
+    padding: 1%;
+    font-size: 35px;
+    margin-top:10px;
+    background-colorblue;
+    margin-left: 4px;
+}
+
+#header h5:hover
+{
+    font-size:25px;
+    padding: 4.5px;
+    color: white;
+}
+
+#subheader{
+    background-color: yellow;
+    height: 39px;
+    width: 37px;
+    margin-left: 40px;
+}
+
+#subheader:hover
+{
+    transition: all 1500ms ease-in-out;
+    border-radius: 30%;
+    background-color: blue;
+    image-rendering: pixelated;
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+#subheader h5{
+    color: blue;
+    padding: 1%;
+    font-size: 35px;
+    margin-top:10px;
+    background-colorblue;
+    margin-left: 4px;
+}
+
+#subheader h5:hover
+{
+    font-size:25px;
+    padding: 4.5px;
+    color: white;
+}
+
+#subheader2
+{
+    background-color: yellow;
+    height: 39px;
+}
+
+#contant1{
+    background-color:red;
+    height: 30px;
+    margin-top: 30px;
+}
+#contant1:hover
+{
+    background-color:rgba(255, 255, 0, 0.712);
+    transition: all 1500ms ease-in-out;
+    border-radius: 10px;
+}
+
+#contant2
+{
+        background-color:blue;
+        height: 20px;
+        margin-top: 40px;
+}
+#contant3
+    {
+        background-color:red;
+        height: 20px;
+        margin-top: 50px;
+        
+
+    }
+#contant4
+    {
+        background-color:blue;
+        height: 20px;
+        margin-top: 60px;
+    }
+#contant5
+    {
+        background-color:red;
+        height:20px;
+        margin-top: 70px;
+    }
+#contant6
+    {
+        background-color:blue;
+        height: 20px;
+        margin-top:80px ;
+    }
+#contant7
+    {
+        background-color:red;
+        height: 20px;
+        margin-top: 90px;
+    }
+#contant8
+    {
+        background-color:blue;
+        height: 20px;
+        margin-top: 100px;
+    }
