@@ -1,0 +1,106 @@
+body
+{
+    background-color:rgba(255, 255, 255, 0.959);
+    margin: 0px auto;
+}
+#header
+{
+    background-color: rgba(0,0,255,0.582);
+    height:40px;
+    width:25%;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 40%;
+    text-align: center;
+}
+#header h5:hover
+{
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+}
+h1
+{
+    text-align: center;
+
+}
+#header h5
+{
+    text-align: center;
+    padding: 8px;
+}
+h3
+{
+    text-align: center;
+    padding: 7px;
+}
+#entry1
+{
+    background-color: rgb(245, 238, 238);
+    color: rgba(0,0,0,0.589) ;
+    height: 40px;
+    width: 25%;
+    margin-left: 40%;
+    margin-top: 3%;
+    border-radius: 4px;
+    border-top-width: 20;
+}
+#entry1 h5
+{
+    padding: 8px;
+    color:rgba(0,0,0,0.589);
+}
+#entry2
+{
+    background-color: rgba(191,201,201,0.767);
+    height: 40px;
+    width: 25%;
+    margin-left: 40%;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+#entry2 h5
+{
+    padding: 8px;
+    color: rgba(0,0,0,0.589);
+}
+
+#entry3
+{
+    color: rgba(0,0,0,0.589) ;
+    height: 40px;
+    width: 25%;
+    margin-left: 40%;
+    text-align: right;
+    margin-top: 2px;
+    border-radius: 4px;
+
+}
+
+#entry3 h4
+{
+    padding: 10px;
+    color: blue;
+}
+
+#footer
+{
+    background-color:rgba(0,0,255,0.521);
+    height: 40px;
+    width: 25%;
+    margin-left: 40%;
+    margin-bottom: 300px;
+    border-radius: 10px ;
+    text-align: center;
+    margin-top: 10px;
+}
+#footer h4
+{
+    padding: 8px;
+    color:white;
+    border-radius: 10px;
+}
+#footer h4:hover
+{
+    background-color: red;
+}
