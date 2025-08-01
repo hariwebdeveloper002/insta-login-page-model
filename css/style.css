@@ -1,281 +1,237 @@
-* {                     /*this is the universal tag*/
-  margin: 0;
-  padding:0;
+*{
+  margin: 0px auto;
+  padding: 0px auto;
 }
+
 body
 {
-  position: relative;
-  top: 40px;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #fafafa;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#container
+{
+  width:100%;
+  max-width: 350px;
+  min-height: 500px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgba(155, 145, 145, 0.329); */
 }
 #box
 {
-  top: -26px;
-  overflow: visible;
-  position: relative;
-  z-index: 5;
-  text-align: center;
+  padding: px auto;
+  width: 70px;
+  display: flex;
 }
-
-#box select
+#box:hover
 {
-  border: none;
-  padding:1px 1px;
-  font-size: 12px;
-  cursor: pointer;
-  overflow: hidden;
-  /* margin-left: 48%; */
+  transition: all 0.5s ease-in-out;
+  box-shadow:0 0 6px #00bfff;
 }
+#logo
+{
+  /* background-color: red; */
+  display: flex;
+  margin: 10px 0;
+  justify-content: center;
 
-
-#container {
-  /* background-color: grey; */
-  height: 60vh;
+}
+#logo img
+{
+  width: 50%;
+}
+#header
+{
+  background-color: rgb(90, 90, 224);
   width: 100%;
+  padding: 6.5px 0;
+  text-align: center;
+  border-radius: 8px;
+}
+#line
+{
+  /* background-color: yellow; */
+  margin: 10px 0;
+  padding: 5px 0;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 20px;
-  position: relative;
 
 }
-#header {
-  padding: 1px;
-  width: 40vh;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  top: 45px;
-}
-#header img
+.line1
 {
-  width: 160px;
-  margin-top: 10px;
-}
-#contant1 {
-  background-color:rgba(0, 0, 255, 0.548);
-  padding: 5.5px;
-  width: 40vh;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  top:50px;
-  border-radius: 6px;
-  
-}
-#contant2 {
-  padding: 10px;
-  width: 40vh;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  justify-content: space-between;
-  align-items: center;
-  top: 60px;
-}
-#contant2 .line1 {
-  border: none;
-  height: 1px;
-  padding: 0.3px;
   width: 4cm;
-  background-color: rgb(100, 93, 93);
-}
-#contant2 .line2 {
+  float: right;
   border: none;
+  padding: 0px;
   height: 1px;
-  padding: 0.3px;
+  background-color: black;
+}
+.line2
+{
   width: 4cm;
-  background-color: rgb(100, 93, 93);
+  float: left;
+  border: none;
+  padding: 0px;
+  height: 1px;
+  background-color: black;
 }
-.span
+#inputbox, #inputbox
 {
-  margin-right: 20px;
-  margin-left: 20px;
-  color:rgb(100, 93, 93);
-  /* color:rgb(100, 93, 93); */
-}
-#contant3 input {
-  /* background-color:rgba(235, 227, 227, 0.445); */
-  background-color:rgba(235, 227, 227, 0.445);
-  padding: 8px;
-  width: 40vh;
-  display: flex;
-  justify-content: center;
-  border: 0.5px solid rgb(168, 161, 161);
-  position: relative;
-  top:70px;
+  /* background-color: rgb(90, 90, 224); */
+  width: 100%;
+  text-align: center;
   border-radius: 2px;
+  margin: 2x 0;
 }
-#contant4 input {
-  background-color:rgba(235, 227, 227, 0.445);
-  padding: 8px;
-  width: 40vh;
-  display: flex;
-  justify-content: center;
-  border: 0.5px solid rgb(168, 161, 161);
-  position: relative;
-  top:75px;
-  border-radius: 2px;
-}
-#contant5 
+input
 {
-    padding:10px;
-    width: 40vh;
-    display: flex;
-    justify-content: end;
-    position: relative;
-    top:80px;
+  width: 98.5%;
+  margin: 1px 0;    /*same as inputbox1 and inputbox2*/
+  padding: 6px 0;
+  border-radius: 2px;
+  border: none;
+  border:0.5px solid rgba(168, 161, 161);
+}
+input:focus
+{
+  outline:none;
+  border: 1px solid rgba(51, 48, 48, 0.856);
+  padding-left: 5px;
+  transition: all 0.5s ease-in-out;
+  box-shadow:0 0 6px #00bfff;
+}
+#forgot
+{
+  /* border-radius: 8px; */
+  /* background-color: rgb(90, 90, 224); */
+  width: 100%;
+  padding: 6.5px 0;
+  text-align: center;
+  margin: 14px 0;
+  text-decoration: none;
+}
+#forgot h5
+{
+  color:blue;
+  float: right;
+}
+#forgot a
+{
+  color:blue;
+  float: right;
+  text-decoration: none;
+}
+#login
+{
+  background-color: rgb(90, 90, 224);
+  width: 100%;
+  padding: 6.5px 0;
+  text-align: center;
+  border-radius: 8px;
+  margin: 0px 0;
+}
 
+#sign
+           /* this is the test purpose color only */
+{
+  /* background-color: rgb(90, 90, 224); */
+  width: 100%;
+  padding: 6.5px 0;
+  border-radius: 8px;
+  text-align: center;
+  margin: 30px 0;
 }
-#contant5 a
+#sign a
 {
   text-decoration: none;
 }
-#footer1
-{
-    background-color:rgba(0, 68, 255, 0.637);
-    padding:5.5px;
-    width: 40vh;
-    display: flex;
-    justify-content: center;
-    border: 0.5px solid black;
-    position: relative;
-    top:95px;
-    border-radius: 6px;
-    margin-bottom: 60px;
-}
-#footer1 a
-{
-  color: white;
-  text-decoration: none;
-  
-}
-#footer2
-{
-    /* background-color:rgba(0, 68, 255, 0.637); */
-    padding:5.5px;
-    width: 40vh;
-    display: flex;
-    justify-content: center;
-    /* border: 0.5px solid black; */
-    position: relative;
-    top:60px;
-    border-radius: 10px;
-    margin-bottom: 60px;
-}
-#footer3
-{
-    padding:5.5px;
-    width:100%;
-    display: flex;
-    justify-content: center;
-    /* border: 0.5px solid black; */
-    position: relative;
-    top:20px;
-    /* border-radius: 10px; */
-}
-#footer3 .policy
-{
-  color:5px solid black;
+#terms
+            /* this is the test purpose color only */
+{                
+  /* background-color: rgb(90, 90, 224); */
+  width: 100%;
+  padding: 6.5px 0;
   text-align: center;
+  border-radius: 8px;
+  margin: 0px 0;
 }
-
-
-
-
-*{
-  margin: 0;
-  padding: 0;
-}
-#footer4
+#footer
+            /* this is the test purpose color only */
 {
-  height: 40%;
-  padding:10px;
-  position: relative;
-
+  /* background-color: rgb(90, 90, 224); */
+  width: 52%;
+  padding: 2px 0;
+  margin: 548px 0;
+  font-size: 14px;
+  position: absolute;
+  position: fixed;
 }
-#footer4 .drop
-{
-  width:0px auto;
-  /* background-color: black; */
-  text-align: center;
-  position: relative;
-  top: 80px;
-
-}
-#footer4 li
+#footer ul li
 {
   list-style-type: none;
-  padding: -10px;
-  margin: -10px;
-  display: inline-block;
-  padding: 15px 20px;
-}
-ul li a:hover{
-  /* background-color: red; */
-  background-color: red;
-  padding: 5px 5px; 
-}
-#footer4 li a
-{
-  font-size: 12px;
-  color: rgba(37, 34, 34, 0.788);
-  letter-spacing: 1px;
-  text-decoration: none;
-
-}
-#label
-{
-  display: flex;
-  border: 1px solid black;
-  position: relative;
-  justify-content: center;
-  top: 80px;
-  text-align: center;
-
-}
-#label:hover
-{
-  background:linear-gradient(to right, red, blue);
-  -webkit-background-clip:content-box;
-  border-width: 2px;
-  border-style: dashed;
-  color:black;
-}
-#label a
-{
-  text-decoration: none;
-  color: white;
-}
-@media screen and (max-width:1024)
-{
-  #container
-  {
-    position: absolute;
-  }
+  display:inline;
   
 }
-@media screen and (max-width:1024)
+#footer li a
 {
-  #container
-  {
-    display: flex
-  }
+  color: rgba(51, 48, 48, 0.856);
+  text-decoration: none;
+  letter-spacing:0.2px 0.3px;
+  font-size: 12.5px;
+}
+#footer li a:hover
+{
+  background-color: red;
+  padding: 4px 6px;
+  color: white;
+}
+#write
+          /* this is the test purpose color only */
+{
+  /* background-color: yellow; */
+  text-align: center;
+  margin:55px 0;
+  margin-top: 30px;
+}
+#write:hover
+{
+  color: white ;
+  background-image: linear-gradient(red, blue);
+  border-radius: 18px 5px;
 
 }
-@media screen and (max-width:900)
+#write h5
 {
-  #container
-  {
-    display:flex;
-  }
-
+  transform: translateX(-20px 20px);
+  opacity: 1;
+  transition: 0.4s ease;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+  background-image: linear-gradient(blue,white),
+  linear-gradient(white, blue);
+  width: 40%;
+  text-align: center;
 }
-@media screen and (max-width:768)
+#write a
 {
-  #container
-  {
-    display: flex;
-  }
+  color: white;
+}
+#write .glow
+{
+  transform: translateX(-20px);
+  opacity: 0;
+  transition: 0.4s ease;
+  margin: 4px 0;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+}
+#write:hover .glow
+{
+  opacity: 1;
 }
